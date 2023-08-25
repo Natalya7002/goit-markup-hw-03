@@ -34,10 +34,6 @@ li {
   list-style-type: none;
 }
 
-button {
-  cursor: pointer;
-}
-
 .link:hover,
 .link:focus {
   color: #404bbf;
@@ -49,16 +45,34 @@ body {
   background-color: #ffffff;
 }
 
+.container {
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+}
+
 /* navigation */
 .page-header {
+  display: flex;
   height: 72px;
   border-bottom: 1px solid #e7e9fc;
-  padding: 0;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
+
 .page-header-nav {
   display: flex;
   align-items: center;
-  gap: 76px;
+  width: 100%;
+  max-width: 452px;
+  justify-content: space-between;
 }
 
 .navigation {
@@ -72,30 +86,24 @@ body {
 }
 
 .contakts-item-three {
-  margin-right: 0;
+  margin-right: 332px;
 }
 
 .contacts-nav {
   display: flex;
   align-items: center;
   gap: 40px;
-  padding: 24px 0 24px 0;
-}
-
-.address-main {
-  padding: 24px 0 24px 0;
 }
 
 .text-logo {
+  text-decoration: none;
   margin-right: 76px;
-  padding: 24px 0 24px 0;
+  padding: 30px 0 24px 0;
 }
 
-.container-header {
-  width: 100%;
+.navigation {
   display: flex;
   justify-content: space-between;
-  padding: 0 15px 0 15px;
 }
 
 .address-link .text-logo {
@@ -107,6 +115,11 @@ body {
   font-weight: 700;
   line-height: 1.17;
   letter-spacing: 0.02em;
+}
+
+.address-link-item {
+  display: flex;
+  margin-left: auto;
 }
 
 .logo-web {
@@ -136,6 +149,10 @@ body {
   display: flex;
 }
 
+.address-item {
+  display: flex;
+}
+
 .address-link {
   text-decoration: none;
   font-family: "Roboto", sans-serif;
@@ -160,9 +177,6 @@ body {
   top: 72px;
   background-color: rgba(46, 47, 66, 1);
   color: rgba(255, 255, 255, 1);
-}
-
-.container {
   padding-top: 188px;
   padding-bottom: 188px;
 }
@@ -178,7 +192,8 @@ body {
 
 .title-text {
   display: flex;
-  align-self: auto;
+  align-items: center;
+  max-width: 496px;
 }
 
 .button {
@@ -203,6 +218,7 @@ body {
   margin-left: auto;
   border-radius: 4px;
   gap: 10px;
+  cursor: pointer;
 }
 
 .title-button {
@@ -216,11 +232,6 @@ body {
 }
 
 /* Section 2 */
-
-.conteiner-benefits {
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
 
 .visually-hidden {
   position: absolute;
