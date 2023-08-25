@@ -47,7 +47,7 @@ body {
 
 .container {
   width: 1158px;
-  padding-left: 0 15px;
+  padding: 0 15px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -69,14 +69,11 @@ body {
   justify-content: space-between;
 }
 
-.navigation {
-  display: flex;
-}
-
 .contacts-nav {
   display: flex;
   align-items: center;
   gap: 40px;
+  padding: 24px 0;
 }
 
 .text-logo {
@@ -143,6 +140,7 @@ body {
 
 .address-item {
   display: flex;
+  gap: 40px;
 }
 
 .address-link {
@@ -178,8 +176,14 @@ body {
   padding-bottom: 188px;
 }
 
+.title-container {
+  padding: 188px 472px 188px 472px;
+  flex-direction: column;
+}
+
 .title {
-  max-width: 496px;
+  width: 496px;
+  height: 120px;
   font-family: "Roboto", sans-serif;
   font-size: 56px;
   font-weight: 700;
