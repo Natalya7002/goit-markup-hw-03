@@ -402,9 +402,11 @@ body {
 /*  Footer */
 .footer {
   background-color: #2e2f42;
+  padding: 100px 0;
 }
 
 .text-logo {
+  display: inline-block;
   color: #4d5ae5;
   text-transform: uppercase;
   font-family: "Raleway", sans-serif;
@@ -412,6 +414,7 @@ body {
   font-weight: 700;
   line-height: 1.17;
   letter-spacing: 0.03em;
+  margin-bottom: 16px;
 }
 
 .logo-web-two {
@@ -424,6 +427,7 @@ body {
 }
 
 .footer-text {
+  max-width: 264px;
   color: #f4f4fd;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
