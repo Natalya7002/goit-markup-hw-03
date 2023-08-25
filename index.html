@@ -21,12 +21,12 @@
 
   <body>
     <header class="page-header">
-      <div class="container">
+      
         <div class="container-header">
           <nav class="page-header-nav">
+            <div class="navigation"></div>
             <a class="text-logo" href=""
-              >Web<span class="logo-web">Studio</span></a
-            >
+              >Web<span class="logo-web">Studio</span></a>
             <ul class="contacts-nav">
               <li class="contakts-item-one">
                 <a class="link" href="./index.html">Studio</a>
@@ -38,10 +38,11 @@
                 <a class="link" href="">Contacts</a>
               </li>
             </ul>
+          </div>
           </nav>
 
           <div class="address-main">
-            <ul class="address-list">
+            <ul class="address-link">
               <li class="address-item">
                 <a class="address-link" href="mailto:info@devstudio.com"
                   >info@devstudio.com</a
@@ -55,13 +56,13 @@
             </ul>
           </div>
         </div>
-      </div>
+     
     </header>
 
     <main>
       <!-- Section Hero -->
       <section class="title-hero">
-        <div>
+        <div class="container">
           <div class="title-text">
             <h1 class="title">Effective Solutions <br />for Your Business</h1>
           </div>
@@ -73,8 +74,9 @@
 
       <!-- Section 2 -->
       <section class="contant">
-        <h2 class="benefits">sk</h2>
-        <ul class="benefits-menu">
+        <div class="conteiner-benefits">
+         <h2 class="visually-hidden">sk</h2>
+         <ul class="benefits-menu">
           <li class="benefits-item">
             <h3 class="benefits-second">Strategy</h3>
             <p class="text">
@@ -96,7 +98,7 @@
               growth opportunities and minimize risk.
             </p>
           </li>
-          <li class="benefits-item">
+          <li class="benefits-item-last ">
             <h3 class="benefits-second">Technologies</h3>
             <p class="text">
               Design practice focused on digital experiences. We bring forth a
@@ -104,10 +106,12 @@
             </p>
           </li>
         </ul>
+       </div>
       </section>
 
       <!-- Section Our Team -->
       <section class="aside-main">
+        <div class="aside-section">
         <h2 class="aside">Our Team</h2>
         <ul class="aside-list">
           <li class="aside-item">
@@ -117,7 +121,8 @@
               alt="Mark Guerrero"
               width="264"
             />
-            <h3 class="aside-title">Mark Guerrero</h3>
+            <div class="name-aside">
+            <h3 class="aside-title">Mark Guerrero</h3></div>
             <p class="section-text">Product Designer</p>
           </li>
           <li class="aside-item">
@@ -127,7 +132,8 @@
               alt="Tom Ford"
               width="264"
             />
-            <h3 class="aside-title">Tom Ford</h3>
+            <div class="name-aside">
+            <h3 class="aside-title">Tom Ford</h3></div>
             <p class="section-text">Frontend Developer</p>
           </li>
           <li class="aside-item">
@@ -137,24 +143,28 @@
               alt="Camila Garcia"
               width="264"
             />
-            <h3 class="aside-title">Camila Garcia</h3>
+            <div class="name-aside">
+            <h3 class="aside-title">Camila Garcia</h3></div>
             <p class="section-text">Marketing</p>
           </li>
-          <li class="aside-item">
+          <li class="aside-item aside-last">
             <img
               class="aside-pic"
               src="./images/images-wilson.jpg"
               alt="Daniel Wilson"
               width="264"
             />
-            <h3 class="aside-title">Daniel Wilson</h3>
+            <div class="name-aside">
+            <h3 class="aside-title">Daniel Wilson</h3></div>
             <p class="section-text">UI Designer</p>
           </li>
         </ul>
+      </div>
       </section>
 
       <!-- Section Portfolio -->
       <section class="portfolio">
+        <div class="portfolio-conteiner"></div>
         <h2 class="portfolio-title">Our Portfolio</h2>
         <ul class="portfolio-list">
           <li class="portfolio-item">
@@ -165,8 +175,10 @@
               width="360"
               height="300"
             />
-            <h3 class="portfolio-main">Banking App</h3>
-            <p class="portfolio-text">App</p>
+        <div class="portfolio-text-main"> 
+          <div class="portfolio_text-main">
+            <h3 class="portfolio-main">Banking App</h3></div>
+            <p class="portfolio-text">App</p></div>
           </li>
           <li class="portfolio-item">
             <img
@@ -176,8 +188,10 @@
               width="360"
               height="300"
             />
-            <h3 class="portfolio-main">Cashless Payment</h3>
-            <p class="portfolio-text">Marketing</p>
+        <div class="portfolio-text-main">
+          <div class="portfolio_text-main">
+            <h3 class="portfolio-main">Cashless Payment</h3></div>
+            <p class="portfolio-text">Marketing</p></div>
           </li>
           <li class="portfolio-item">
             <img
@@ -187,8 +201,10 @@
               width="360"
               height="300"
             />
-            <h3 class="portfolio-main">Meditation App</h3>
-            <p class="portfolio-text">App</p>
+        <div class="portfolio-text-main">
+          <div class="portfolio_text-main">
+            <h3 class="portfolio-main">Meditation App</h3></div>
+            <p class="portfolio-text">App</p></div>
           </li>
           <li class="portfolio-item">
             <img
@@ -198,8 +214,10 @@
               width="360"
               height="300"
             />
-            <h3 class="portfolio-main">Taxi Service</h3>
-            <p class="portfolio-text">Marketing</p>
+        <div class="portfolio-text-main">
+          <div class="portfolio_text-main">
+            <h3 class="portfolio-main">Taxi Service</h3></div>
+            <p class="portfolio-text">Marketing</p></div>
           </li>
           <li class="portfolio-item">
             <img
@@ -209,8 +227,10 @@
               width="360"
               height="300"
             />
-            <h3 class="portfolio-main">Screen Illustrations</h3>
-            <p class="portfolio-text">Design</p>
+        <div class="portfolio-text-main">
+          <div class="portfolio_text-main">
+            <h3 class="portfolio-main">Screen Illustrations</h3></div>
+            <p class="portfolio-text">Design</p></div>
           </li>
           <li class="portfolio-item">
             <img
@@ -220,10 +240,13 @@
               width="360"
               height="300"
             />
-            <h3 class="portfolio-main">Online Courses</h3>
-            <p class="portfolio-text">Marketing</p>
+         <div class="portfolio-text-main"
+         <div class="portfolio_text-main">
+            <h3 class="portfolio-main">Online Courses</h3></div>
+            <p class="portfolio-text">Marketing</p></div>
           </li>
         </ul>
+      </div>
       </section>
     </main>
 

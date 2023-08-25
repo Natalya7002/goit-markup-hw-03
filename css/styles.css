@@ -49,8 +49,6 @@ body {
   background-color: #ffffff;
 }
 
-/* знімає маркер списка */
-
 /* navigation */
 .page-header {
   height: 72px;
@@ -63,20 +61,41 @@ body {
   gap: 76px;
 }
 
+.navigation {
+  display: flex;
+  gap: 40px;
+}
+
+.contakts-item-one,
+.contakts-item-two {
+  margin-right: 40x;
+}
+
+.contakts-item-three {
+  margin-right: 0;
+}
+
 .contacts-nav {
   display: flex;
   align-items: center;
   gap: 40px;
+  padding: 24px 0 24px 0;
 }
 
-.container {
-  display: flex;
+.address-main {
+  padding: 24px 0 24px 0;
+}
+
+.text-logo {
+  margin-right: 76px;
+  padding: 24px 0 24px 0;
 }
 
 .container-header {
   width: 100%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  padding: 0 15px 0 15px;
 }
 
 .address-link .text-logo {
@@ -125,6 +144,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: rgba(67, 68, 85, 1);
+  display: flex;
 }
 .address-link:hover,
 .address-link:focus {
@@ -142,7 +162,13 @@ body {
   color: rgba(255, 255, 255, 1);
 }
 
+.container {
+  padding-top: 188px;
+  padding-bottom: 188px;
+}
+
 .title {
+  max-width: 496px;
   font-family: "Roboto", sans-serif;
   font-size: 56px;
   font-weight: 700;
@@ -156,6 +182,7 @@ body {
 }
 
 .button {
+  display: block;
   width: 105px;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
@@ -167,8 +194,9 @@ body {
 
 .button {
   background-color: #4d5ae5;
-  width: 169px;
+  min-width: 169px;
   height: 56px;
+  border: none;
   margin-top: 48px;
   margin-right: auto;
   margin-bottom: 204px;
@@ -188,8 +216,37 @@ body {
 }
 
 /* Section 2 */
-.benefits {
-  line-height: 1.2;
+
+.conteiner-benefits {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+.benefits-menu {
+  display: flex;
+  gap: 24px;
+}
+
+.benefits-item-last {
+  width: calc((100% - 72px) / 4);
+  margin: 0;
+}
+
+.benefits-item {
+  width: calc((100% - 72px) / 4);
 }
 
 .benefits-second {
@@ -199,6 +256,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: rgba(46, 47, 66, 1);
+  margin-bottom: 8px;
 }
 
 .text {
@@ -213,7 +271,10 @@ body {
 /* Section Our Team  */
 .aside-main {
   background-color: #f4f4fd;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
+
 .aside {
   color: #2e2f42;
   font-family: "Roboto", sans-serif;
@@ -223,6 +284,17 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
+  margin-bottom: 72px;
+}
+
+.aside-list {
+  display: flex;
+  gap: 24px;
+}
+
+.name-aside {
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .aside-item {
@@ -235,9 +307,16 @@ body {
   border-radius: 0px 0px 4px 4px;
   gap: 32px;
   box-sizing: border-box;
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.aside-last {
+  margin: 0;
 }
 
 .aside-title {
+  text-align: center;
   color: rgba(46, 47, 66, 1);
   text-transform: capitalize;
   font-family: "Roboto", sans-serif;
@@ -245,21 +324,28 @@ body {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  text-align: center;
+  margin-bottom: 8px;
 }
 
 .section-text {
+  text-align: center;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: rgba(67, 68, 85, 1);
+  margin: 8px;
 }
 
 /* Section Portfolio  */
 .portfolio {
   color: rgba(231, 233, 252, 1);
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.portfolio-conteiner {
 }
 
 .portfolio-title {
@@ -271,6 +357,24 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
+  margin-bottom: 72px;
+}
+
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+
+.portfolio-item {
+  width: calc((100% - 48px) / 3);
+}
+
+.portfolio-text-main {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }
 
 .portfolio-main {
@@ -281,15 +385,18 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
   color: rgba(46, 47, 66, 1);
+  margin-bottom: 8px;
 }
 
 .portfolio-text {
+  text-align: center;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.02em;
   color: rgba(67, 68, 85, 1);
+  margin-bottom: 8px;
 }
 
 /*  Footer */
