@@ -63,17 +63,16 @@ body {
 
 .page-header-nav {
   display: flex;
-  align-items: center;
   width: 100%;
   max-width: 452px;
   justify-content: space-between;
+  padding: 24px 0;
 }
 
 .contacts-nav {
   display: flex;
-  align-items: center;
+  flex-direction: row;
   gap: 40px;
-  padding: 24px 0;
 }
 
 .text-logo {
@@ -106,7 +105,14 @@ body {
 }
 
 .address-link-item {
+  margin-left: auto;
+  gap: 40px;
   display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 452px;
+  justify-content: space-between;
+  padding: 24px 0;
   margin-left: auto;
   gap: 40px;
 }
@@ -164,10 +170,11 @@ body {
   height: 600px;
   flex-shrink: 0;
   background: var(--navyblue, #2e2f42);
+  padding: 188px 0;
 }
 
 .title {
-  max-width: 498px;
+  max-width: 496px;
   color: var(--white, #fff);
   text-align: center;
 
@@ -181,11 +188,14 @@ body {
 }
 
 .button {
-  display: inline-flex;
+  display: block;
+  min-width: 169px;
+  min-width: 169px;
   padding: 16px 32px;
   align-items: flex-start;
   gap: 10px;
   border-radius: 4px;
+  border: none;
   background: var(--iris, #4d5ae5);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   cursor: pointer;
@@ -202,8 +212,6 @@ body {
 
 .title-container {
   flex-direction: column;
-
-  padding: 188px auto 188px auto;
 }
 
 .button:hover,
