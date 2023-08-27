@@ -106,7 +106,7 @@ a {
 
 .page-header-nav {
   display: flex;
-  align-items: stretch;
+  align-items: center;
 }
 
 .address-link-item {
