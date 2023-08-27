@@ -57,6 +57,13 @@ body {
 
 /* Header */
 /* logo */
+.page-header {
+  border-bottom: 1px;
+  border-bottom: 1px solid #e7e9fc;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 .logo-link {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
@@ -70,8 +77,8 @@ body {
 .logo-icon {
   color: #2e2f42;
 }
-/* navigation */
-.nav-link {
+
+.contakts-item {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -94,7 +101,7 @@ body {
 
 .page-header-nav {
   display: flex;
-  align-items: center;
+  align-items: last baseline;
 }
 
 .address-link-item {
@@ -107,8 +114,6 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
-  border-bottom: 1px;
-  border-bottom: 1px solid #e7e9fc;
   padding-top: 24px;
   padding-bottom: 24px;
 }
