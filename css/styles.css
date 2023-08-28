@@ -363,6 +363,11 @@ a {
   padding: 100px 0;
 }
 
+a {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
 .logo-web-two {
   color: #f4f4fd;
 }
