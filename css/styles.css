@@ -72,13 +72,14 @@ body {
   letter-spacing: 0.03em;
   color: #4d5ae5;
   margin-right: 76px;
+  text-transform: uppercase;
 }
 
 .logo-icon {
   color: #2e2f42;
 }
 
-.nav-link {
+.contakts-item .nav-link {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -168,6 +169,7 @@ a {
 
 .title-container {
   flex-direction: column;
+  margin: 0;
 }
 
 .button:hover,
@@ -353,7 +355,6 @@ a {
   line-height: 24px;
   letter-spacing: 0.02em;
   color: rgba(67, 68, 85, 1);
-  margin-bottom: 8px;
 }
 
 /*  Footer */
@@ -362,24 +363,8 @@ a {
   padding: 100px 0;
 }
 
-.nav-link {
-  display: inline-block;
-  font-family: "Raleway", sans-serif;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  color: #4d5ae5;
-  margin-bottom: 16px;
-}
-
 .logo-web-two {
   color: #f4f4fd;
-  font-family: Raleway;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
 }
 
 .footer-text {
