@@ -34,6 +34,7 @@ li {
   font-style: normal;
 }
 
+.contakts-item:hover,
 .nav-link:hover,
 .address-link:hover,
 .nav-link:focus,
@@ -79,7 +80,7 @@ body {
   color: #2e2f42;
 }
 
-.contakts-item .nav-link {
+.nav-link {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -87,7 +88,9 @@ body {
   color: #2e2f42;
 }
 
-.address-item {
+.address-link {
+  display: block;
+  padding: 24px 0;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -95,10 +98,10 @@ body {
   color: #434455;
 }
 
-a {
+/* a {
   display: block;
   padding: 24px 0;
-}
+} */
 
 .contacts-nav {
   display: flex;
@@ -165,11 +168,6 @@ a {
   line-height: 24px; /* 150% */
   letter-spacing: 0.64px;
   margin: 0 auto;
-}
-
-.title-container {
-  flex-direction: column;
-  margin: 0;
 }
 
 .button:hover,
@@ -363,15 +361,18 @@ a {
   padding: 100px 0;
 }
 
-a {
+/* a {
   display: inline-block;
   margin-bottom: 16px;
-}
+} */
 
 .logo-web-two {
   color: #f4f4fd;
 }
 
+.footer-logo {
+  margin-bottom: 16px;
+}
 .footer-text {
   max-width: 264px;
   color: #f4f4fd;
