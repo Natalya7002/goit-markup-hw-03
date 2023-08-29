@@ -74,6 +74,7 @@ body {
   color: #4d5ae5;
   margin-right: 76px;
   text-transform: uppercase;
+  padding: 24px 0;
 }
 
 .logo-icon {
@@ -363,6 +364,7 @@ body {
 }
 
 .logo-link-too {
+  display: inline-block;
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
@@ -370,6 +372,7 @@ body {
   letter-spacing: 0.03em;
   color: #4d5ae5;
   margin-right: 76px;
+  margin-bottom: 16px;
   text-transform: uppercase;
   text-decoration: none;
 }
@@ -383,9 +386,6 @@ body {
   color: #f4f4fd;
 }
 
-.footer-logo {
-  margin-bottom: 16px;
-}
 .footer-text {
   max-width: 264px;
   color: #f4f4fd;
