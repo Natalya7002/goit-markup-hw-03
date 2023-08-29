@@ -106,6 +106,7 @@ body {
 .contacts-nav {
   display: flex;
   gap: 40px;
+  padding: 24px 0;
 }
 
 .page-header-nav {
@@ -359,6 +360,18 @@ body {
 .footer {
   background-color: #2e2f42;
   padding: 100px 0;
+}
+
+.logo-link-too {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: #4d5ae5;
+  margin-right: 76px;
+  text-transform: uppercase;
+  text-decoration: none;
 }
 
 /* a {
