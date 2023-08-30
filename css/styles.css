@@ -74,7 +74,6 @@ body {
   color: #4d5ae5;
   margin-right: 76px;
   text-transform: uppercase;
-  padding: 24px 0;
 }
 
 .logo-icon {
@@ -82,11 +81,13 @@ body {
 }
 
 .nav-link {
+  display: block;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding: 24px 0;
 }
 
 .address-link {
@@ -107,7 +108,6 @@ body {
 .contacts-nav {
   display: flex;
   gap: 40px;
-  padding: 24px 0;
 }
 
 .page-header-nav {
